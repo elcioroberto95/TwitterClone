@@ -1,0 +1,22 @@
+{
+	"name": "miniframework",
+	"require": {
+		"php": ">= 7.0"
+	},
+	"authors": [
+		{
+			"name": "Elcio Roberto Cardoso Pereira",
+			"email": "elcioroberto1995@gmail.com"
+
+		}
+
+
+	],
+	"autoload": {
+		"psr-4": {
+			"App\\": "App/",
+			"MF\\": "vendor/MF/"
+
+		}
+	}
+}

@@ -1,0 +1,186 @@
+html, body {
+  height: 100%;
+}
+
+body {
+	font-family: "Segoe UI", Arial, sans-serif;
+}
+
+h1 {
+	display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+	display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.banner {
+	height: 100%;
+	background-color: #1da1f2;
+}
+
+.title {
+	color: #1da1f2;
+	font-size: 27px;
+    line-height: 32px;
+}
+
+.subtitle {
+	color: #14171a;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 16px auto;
+}
+
+.form-control {
+	background-color: #fff;
+    border: 1px solid #e6ecf0;
+    border-radius: 3px;
+}
+
+.comunicacao {
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.communicationItem {
+	color: #fff;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 24px;
+    margin: 48px auto;
+    position: relative;
+}
+
+.menu {
+    background: #fff;
+    height: 46px;
+    border-bottom: 1px solid rgba(0,0,0,0.25);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.menuItem, .menuItem:hover {
+    font-size: 13px;
+    font-weight: bold;
+    color: #1DA1F2;
+    text-decoration: none;
+    margin-right: 25px;
+
+}
+
+.menuIco {
+    width: 31px;
+    height: 23px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-top:-10px;
+    margin-left:-15px;
+}
+
+.perfil {
+    border: 1px solid #e6ecf0;
+    background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+}
+
+.perfilTopo {
+    height: 95px;
+    background-color: #1DA1F2
+}
+
+.perfilPainel {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.perfilPainelNome {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.perfilPainelItem  {
+    color: #657786;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: .02em;
+    line-height: 16px;
+    overflow: hidden;
+    transition: color .15s ease-in-out;
+}
+
+.perfilPainelItemValor {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 3px;
+    transition: color .15s;
+    color: #1DA1F2 !important;
+}
+
+.tweetBox {
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border: 1px solid #e6ecf0;
+    background-color: #E8F5FD;
+    padding:25px;
+}
+
+.quemSeguir {
+    border: 1px solid #e6ecf0;
+    background: #fff;
+    position: relative;
+    margin-bottom: 10px;
+    display: block;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.quemSeguirTitulo {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.quemSeguirTxt, .quemSeguirTxt:hover {
+    color: #1DA1F2;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.tweet {
+    padding:15px;
+    border-bottom: 1px solid #e6ecf0;
+    cursor: pointer;
+}
+
+.tweet:hover {
+    background-color: #f5f8fa;
+}
